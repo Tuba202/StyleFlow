@@ -30,11 +30,9 @@ conda install -y pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.2 -c pytorch
 pip install torch==1.8.1+cu102 torchvision==0.9.1+cu102 -f https://download.pytorch.org/whl/torch_stable.html
 conda install -y tensorflow==1.14 tensorflow-gpu==1.14
 pip install torchdiffeq==0.1.0 tensorflow==1.14 tensorflow-gpu==1.14 scikit-image scikit-learn requests qdarkstyle qdarkgraystyle pyqt5 opencv-python
-Remove-Item C:\Users\ellio\StyleFlow\dnnlib\tflib\custom_ops.PY
-Copy-Item -Path C:\Users\ellio\Documents\StyleflowFiles\custom_ops.py -Destination C:\Users\ellio\StyleFlow\dnnlib\tflib\
 python main.py
 ```
-### Everything should work smoothly from here!
+### Now the program should run, and it should all be smooth sailing from here! If it doesn't work, feel free to open up an issue or email me at elliotmarks06@gmail.com.
 
 
 ## License
