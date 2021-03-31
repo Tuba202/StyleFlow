@@ -32,7 +32,7 @@ conda install -y tensorflow==1.14 tensorflow-gpu==1.14
 pip install torchdiffeq==0.1.0 tensorflow==1.14 tensorflow-gpu==1.14 scikit-image scikit-learn requests qdarkstyle qdarkgraystyle pyqt5 opencv-python
 python main.py
 ```
-### Now the program should run, and it should all be smooth sailing from here! If it doesn't work, feel free to open up an issue or email me at elliotmarks06@gmail.com.
+## If it doesn't work, feel free to open up an issue or email me at elliotmarks06@gmail.com. If it does, please help me out and give this project a star!!!
 
 
 ## License
