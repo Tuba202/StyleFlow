@@ -14,8 +14,11 @@
 ## Installation
 
 Start by making sure that you have conda(Mini or Ana, it doesn't matter), visual studio 2017, and CUDA 11 installed on your computer.
+
 Installing Conda: https://youtu.be/tXgPY4lc6fo
+
 Installing VS: https://youtu.be/X5zYiksQOF4
+
 Installing CUDA: https://youtu.be/cL05xtTocmY
 
 Now from windows search, type in Anaconda/Miniconda(whichever one you downloaded), and click on Anaconda/Miniconda powershell. Simply copy and paste in these commands:
@@ -30,8 +33,9 @@ conda install -y pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.2 -c pytorch
 pip install torch==1.8.1+cu102 torchvision==0.9.1+cu102 -f https://download.pytorch.org/whl/torch_stable.html
 conda install -y tensorflow==1.14 tensorflow-gpu==1.14
 pip install torchdiffeq==0.1.0 tensorflow==1.14 tensorflow-gpu==1.14 scikit-image scikit-learn requests qdarkstyle qdarkgraystyle pyqt5 opencv-python
-python main.py
 ```
+Now that everything is installed, run
+```python main.py``` to run it!
 ## If it doesn't work, feel free to open up an issue or email me at elliotmarks06@gmail.com. If it does, please help me out and give this project a star!!!
 
 
