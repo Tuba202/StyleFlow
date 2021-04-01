@@ -21,7 +21,7 @@ Installing VS: https://youtu.be/X5zYiksQOF4
 
 Installing CUDA: https://youtu.be/cL05xtTocmY
 
-Now from windows search, type in Anaconda/Miniconda(whichever one you downloaded), and click on Anaconda/Miniconda powershell. Simply copy and paste in these commands:
+Now from windows search, type in powershell, and click on Anaconda/Miniconda powershell. Then simply copy and paste in these commands:
 
 ```
 conda create -y -n styleflow python==3.6.7
